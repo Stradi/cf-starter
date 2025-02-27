@@ -1,0 +1,19 @@
+{
+  "name": "@cf-starter/worker",
+  "version": "0.0.0",
+  "description": "Actual Cloudflare Worker project for `cf-starter`",
+  "scripts": {
+    "dev": "wrangler dev --port 8000"
+  },
+  "dependencies": {
+    "@cf-starter/worker-common": "workspace:*",
+    "@hono/zod-validator": "^0.4.3",
+    "hono": "^4.7.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250224.0",
+    "typescript": "^5.7.3",
+    "wrangler": "^3.111.0"
+  }
+}

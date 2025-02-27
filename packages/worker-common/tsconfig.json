@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "composite": true,
+    "declaration": true,
+    "outDir": "./dist",
+
+    "types": ["@cloudflare/workers-types/2023-07-01"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
