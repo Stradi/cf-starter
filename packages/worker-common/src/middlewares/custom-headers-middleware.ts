@@ -1,7 +1,7 @@
 import { MiddlewareHandler } from 'hono';
 
 export default function customHeadersMiddleware(
-  poweredBy = 'CF Starter'
+  poweredBy = 'cf-starter'
 ): MiddlewareHandler {
   return async (ctx, next) => {
     await next();
